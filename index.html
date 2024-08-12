@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Pull</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__top top-header">
+            <div class="top-header__container">
+               <div class="top-header__body" data-da=".menu__content,1000">
+                  <a href="#" class="top-header__address _icon-location"><span>Укажите адрес доставки</span></a>
+                  <a href="#" class="top-header__delivery">Доставка и оплата</a>
+               </div>
+            </div>
+         </div>
+         <div class="header__middle middle-header">
+            <div class="middle-header__container">
+               <div class="middle-header__column middle-header__column--1">
+                  <button type="button" class="middle-header__icon icon-menu">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                  </button>
+                  <a href="index.html" class="middle-header__logo" data-da=".middle-header__column--2,1000"><img src="img/logo.svg" alt="Логотип"></a>
+               </div>
+               <div class="middle-header__column middle-header__column--2">
+                  <div class="middle-header__search search" data-da=".middle-header__column--1,1000,1">
+                     <button type="button" class="search__icon _icon-search"></button>
+                     <form class="search__form" action="#" method="post">
+                        <div class="search__item">
+                           <input class="search__input input" type="search" name="search" placeholder="Искать “Женское польто”">
+                        </div>
+                        <button class="search__btn btn" type="submit">Искать</button>
+                     </form>
+                  </div>
+               </div>
+               <div class="middle-header__column middle-header__column--3">
+                  <div class="middle-header__actions actions-header">
+                     <a href="#" class="actions-header__cart _icon-cart"><span>0</span></a>
+                     <a href="#" class="actions-header__user _icon-user"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="header__bottom bottom-header">
+            <div class="bottom-header__container">
+               <div class="bottom-header__gender">
+                  <div class="gender-header">
+                     <a href="#" class="gender-header__link _active">Мужчинам</a>
+                     <span>/</span>
+                     <a href="#" class="gender-header__link">Женщинам</a>
+                  </div>
+               </div>
+               <div class="bottom-header__menu menu">
+                  <div class="menu__body">
+                     <div class="menu__burger">
+                        <button type="button" class="menu__icon">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </button>
+                     </div>
+                     <nav class="menu__content">
+                        <div class="menu__gender">
+                           <div class="gender-header">
+                              <a href="#" class="gender-header__link _active">Мужчинам</a>
+                              <span>/</span>
+                              <a href="#" class="gender-header__link">Женщинам</a>
+                           </div>
+                        </div>
+                        <ul class="menu__list">
+                           <li class="menu__item"><a href="" class="menu__link _icon-percent"><span>Распродажа</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Красота</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Спорт</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Premium</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Бренды</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Аксессуары</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Обувь</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Одежда</span></a></li>
+                           <li class="menu__item"><a href="" class="menu__link"><span>Новинки</span></a></li> 
+                        </ul>
+                        <a href="#" class="menu__btn btn">Войти</a>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__banners banners">
+            <div class="banners__container">
+               <div class="banners__items">
+                  <a href="catalog.html" class="banners__item item-banners item-banners--max item-banners--col item-banners--1">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Скидки на одежду до 20%</h4>
+                        <div class="item-banners__text text">Успей пока в наличии</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/01.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Скидки
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--middle item-banners--2">
+                     <div class="item-banners__body">
+                        <div class="item-banners__label">НОТ🔥</div>
+                        <h4 class="item-banners__title">Мужские новинки 2023</h4>
+                        <div class="item-banners__text text">Успей пока в наличии</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/03.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Новинки
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--middle item-banners--3">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Обновление <br> женской одежды</h4>
+                        <div class="item-banners__text text">Новые трендовые образы на это лето</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/02.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Обновления
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--min item-banners--col item-banners--4">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Трендовые очки</h4>
+                        <div class="item-banners__text text">Успей пока в наличии</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/05.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Тренд
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--min item-banners--col item-banners--5">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Распродажа обуви</h4>
+                        <div class="item-banners__text text">Скоро закончиться</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/04.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Тренд
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="page__category category">
+            <div class="category__container">
+               <div data-more="6" class="category__body">
+                  <div class="category__content">
+                     <div class="category__slider swiper">
+                        <div class="category__wrapper swiper-wrapper">
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/01.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/02.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Бренды</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/03.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Красота</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/04.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Premium</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/05.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Аксессуары</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/06.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Одежда</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/07.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/08.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/09.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/10.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/11.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                           <a href="catalog.html" data-more-item class="category__slide slide-category swiper-slide">
+                              <div class="slide-category__body">
+                                 <div class="slide-category__image">
+                                    <img src="img/category/12.png" alt="">
+                                 </div>
+                                 <div class="slide-category__btn btn btn--wh">Спорт</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="category__arrows arrows">
+                        <div class="category__prev arrows__arrow arrows__prev _icon-triangle-left"></div>
+                        <div class="category__next arrows__arrow arrows__next _icon-triangle-right"></div>
+                     </div>
+                  </div>
+                  <button data-show type="button" class="category__more btn btn--wh show _icon-arrow">
+                     <span>Показать еще</span>
+                  </button>
+                  <button data-hide type="button" class="category__more btn btn--wh _icon-arrow">
+                     <span>Скыть</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <section class="page__hits hits">
+            <div class="hits__container">
+               <div class="hits__top">
+                  <h2 class="hits__title title">Хиты продаж</h2>
+                  <div class="hits__arrows arrows">
+                     <div class="hits__prev arrows__arrow arrows__prev _icon-triangle-left"></div>
+                     <div class="hits__next arrows__arrow arrows__next _icon-triangle-right"></div>
+                  </div>
+               </div>
+               <div class="hits__slider swiper">
+                  <div class="hits__wrapper swiper-wrapper">
+                     <div class="hits__slide swiper-slide slide-hits">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="hits__slide swiper-slide slide-hits">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="hits__slide swiper-slide slide-hits">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="hits__slide swiper-slide slide-hits">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="hits__slide swiper-slide slide-hits">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="page__sale-banners sale-banners">
+            <div class="sale-banners__container">
+               <a href="catalog.html" class="sale-banners__body">
+                  <div class="sale-banners__content">
+                     <div class="sale-banners__brand">MaNGO</div>
+                     <div class="sale-banners__pol">MAN</div>
+                  </div>
+                  <div class="sale-banners__text">
+                     распродажа <br> скидки до 70%
+                  </div>
+               </a>
+            </div>
+         </div>
+         <section class="page__brands brands">
+            <div class="brands__container">
+               <div class="brands__top">
+                  <h2 class="brands__title title">Популярные бренды</h2>
+                  <a href="#" class="brands__link btn btn--wh" data-da=".brands__body,767.98">Все бренды</a>
+               </div>
+               <div class="brands__body">
+                  <div class="brands__items">
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                     <a href="#" class="brands__item">
+                        <img src="img/brands/01.png" alt="">
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="page__banners banners">
+            <div class="banners__container">
+               <div class="banners__items banners__items--four">
+                  <a href="catalog.html" class="banners__item item-banners item-banners--max item-banners--col item-banners--1">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Скидки на одежду до 20%</h4>
+                        <div class="item-banners__text text">Успей пока в наличии</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/01.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Скидки
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--middle item-banners--3">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Обновление <br> женской одежды</h4>
+                        <div class="item-banners__text text">Новые трендовые образы на это лето</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/02.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Обновления
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--min item-banners--col item-banners--4">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Трендовые очки</h4>
+                        <div class="item-banners__text text">Успей пока в наличии</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/05.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Тренд
+                     </div>
+                  </a>
+                  <a href="catalog.html" class="banners__item item-banners item-banners--min item-banners--col item-banners--5">
+                     <div class="item-banners__body">
+                        <h4 class="item-banners__title">Распродажа обуви</h4>
+                        <div class="item-banners__text text">Скоро закончиться</div>
+                        <div class="item-banners__link">Пререйти</div>
+                     </div>
+                     <div class="item-banners__image">
+                        <img src="img/banners/04.png" alt="">
+                     </div>
+                     <div class="item-banners__bg">
+                        Тренд
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <section class="page__new-products new-products">
+            <div class="new-products__container">
+               <div class="new-products__top">
+                  <h2 class="new-products__title title">Новинки</h2>
+                  <div class="new-products__arrows arrows">
+                     <div class="new-products__prev arrows__arrow arrows__prev _icon-triangle-left"></div>
+                     <div class="new-products__next arrows__arrow arrows__next _icon-triangle-right"></div>
+                  </div>
+               </div>
+               <div class="new-products__slider swiper">
+                  <div class="new-products__wrapper swiper-wrapper">
+                     <div class="new-products__slide swiper-slide slide-new-products">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="new-products__slide swiper-slide slide-new-products">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="new-products__slide swiper-slide slide-new-products">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="new-products__slide swiper-slide slide-new-products">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                     <div class="new-products__slide swiper-slide slide-new-products">
+                        <article class="card">
+                           <div class="card__top">
+                              <a href="product.html" class="card__image">
+                                 <img src="img/products/01.jpg" alt="">
+                              </a>
+                              <div class="card__tags">
+                                 <div class="card__item card__item--sale">-24%</div>
+                                 <div class="card__item card__item--prem">Premium</div>
+                              </div>
+                           </div>
+                           <div class="card__body">
+                              <h4 class="card__title"><a href="product.html">Спортивный костюм “BOSS”</a></h4>
+                              <div class="card__price">
+                                 <div class="card__new">2 931,65 ₽</div>
+                                 <div class="card__old">2 931,65 ₽</div>
+                              </div>
+                              <div class="card__links">
+                                 <a href="product.html" class="card__btn btn btn--wh">Подробнее</a>
+                                 <a href="#" class="card__favorites _icon-favorites"></a>
+                              </div>
+                           </div>
+                        </article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__actual actual">
+            <div class="actual__container">
+               <div class="actual__top">
+                  <h2 class="actual__title title">Актуально</h2>
+                  <div class="actual__arrows arrows">
+                     <div class="actual__prev arrows__arrow arrows__prev _icon-triangle-left"></div>
+                     <div class="actual__next arrows__arrow arrows__next _icon-triangle-right"></div>
+                  </div>
+               </div>
+               <div class="actual__slider swiper">
+                  <div class="actual__wrapper swiper-wrapper">
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                     <article class="actual__slide swiper-slide slide-actual">
+                        <a href="#" class="slide-actual__image">
+                           <img src="img/actual/01.jpg" alt="">
+                        </a>
+                        <div class="slide-actual__body">
+                           <h4 class="slide-actual__title"><a href="#">Необходимая база</a></h4>
+                           <div class="slide-actual__text text">на каждый день</div>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__application application">
+            <div class="application__container">
+               <div class="application__content">
+                  <div class="application__body">
+                     <h2 class="application__title title">Приложение «PULL»</h2>
+                     <div class="application__items">
+                        <a href="#" class="application__item">
+                           <img src="img/application/01.jpg" alt="">
+                        </a>
+                        <a href="#" class="application__item">
+                           <img src="img/application/02.jpg" alt="">
+                        </a>
+                        <a href="#" class="application__item">
+                           <img src="img/application/03.jpg" alt="">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="application__bg">
+                     <div class="application__image application__image--1">
+                        <img src="img/application/bg-1.jpg" alt="">
+                     </div>
+                     <div class="application__image application__image--2">
+                        <img src="img/application/bg-2.jpg" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__top top-footer">
+            <div class="top-footer__container">
+               <div class="top-footer__row">
+                  <div class="top-footer__menu">
+                     <nav class="top-footer__items">
+                        <div class="top-footer__item">
+                           <div class="top-footer__title">Помощь</div>
+                           <ul class="top-footer__list">
+                              <li><a href="#" class="top-footer__link">Статус заказа по номеру</a></li>
+                              <li><a href="#" class="top-footer__link">Мои заказы</a></li>
+                              <li><a href="#" class="top-footer__link">Условия доставки</a></li>
+                              <li><a href="#" class="top-footer__link">Возврат</a></li>
+                              <li><a href="#" class="top-footer__link">Как оформить заказ</a></li>
+                              <li><a href="#" class="top-footer__link">Как выбрать размер</a></li>
+                              <li><a href="#" class="top-footer__link">Центр поддержки Lamoda</a></li>
+                              <li><a href="#" class="top-footer__link">Часто задаваемые вопросы</a></li>
+                              <li><a href="#" class="top-footer__link">Lamoda club</a></li>
+                              <li><a href="#" class="top-footer__link">Подарочные сертификаты</a></li>
+                           </ul>
+                        </div>
+                        <div class="top-footer__item">
+                           <div class="top-footer__title">О нас</div>
+                           <ul class="top-footer__list">
+                              <li><a href="#" class="top-footer__link">Журнал</a></li>
+                              <li><a href="#" class="top-footer__link">Участие в исследованиях</a></li>
+                              <li><a href="#" class="top-footer__link">Вакансии</a></li>
+                              <li><a href="#" class="top-footer__link">Устойчивое развитие</a></li>
+                              <li><a href="#" class="top-footer__link">Публичная оферта</a></li>
+                           </ul>
+                        </div>
+                        <div class="top-footer__item">
+                           <div class="top-footer__title">Партнерам</div>
+                           <ul class="top-footer__list">
+                              <li><a href="#" class="top-footer__link">Подключиться к партнёрской программе "Маркетплейс"</a></li>
+                              <li><a href="#" class="top-footer__link">Арендодателям</a></li>
+                              <li><a href="#" class="top-footer__link">Подарочные сертификаты для бизнеса</a></li>
+                              <li><a href="#" class="top-footer__link">Стать подрядчиком для складских операций</a></li>
+                              <li><a href="#" class="top-footer__link">Стать подрядчиком Lamoda</a></li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+                  <div class="top-footer__col">
+                     <div class="top-footer__form form-footer">
+                        <div class="form-footer__title">Скидка 10% за подписку на новинки</div>
+                        <form action="#" class="form-footer__body">
+                           <div class="form-footer__item">
+                              <input type="email" name="email" placeholder="Ваш E-mail" class="form-footer__input input">
+                           </div>
+                           <button type="submit" class="form-footer__btn btn _icon-email"></button>
+                        </form>
+                        <a href="#" class="form-footer__link">Условия акции</a>
+                     </div>
+                     <div class="top-footer__text">
+                        <span>Детская обувь</span>
+                        <p>Особенность детской обуви заключается не только в дизайне, который несомненно более красочный, чем у обуви для взрослых. Большое внимание уделяется качеству материалов и удобству колодки, которые важны для правильного формирования стопы и походки малыша. Многие модели детской обуви имеют специальную амортизирующую подошву или стельки-супинаторы, обеспечивающие правильное положение стопы во время ходьбы. Наличие твердого задника — обязательное условие, позволяющее назвать детскую обувь качественной.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer__bottom bottom-footer">
+            <div class="bottom-footer__container">
+               <div class="bottom-footer__body">
+                  <div class="bottom-footer__content">
+                     <div class="bottom-footer__title">Доступны <a href="#" class="bottom-footer__link">другие способы оплаты</a></div>
+                     <a href="#" class="bottom-footer__pay">
+                        <img src="img/footer/pay.png" alt="">
+                     </a>
+                  </div>
+                  <div class="bottom-footer__items">
+                     <a href="#" class="bottom-footer__item _icon-vk"></a>
+                     <a href="#" class="bottom-footer__item _icon-facebook"></a>
+                     <a href="#" class="bottom-footer__item _icon-youtube"></a>
+                     <a href="#" class="bottom-footer__item _icon-inst"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
