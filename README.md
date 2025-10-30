@@ -1,4 +1,4 @@
-<h1><a href="https://jaroftd.github.io/Pull/">Интернет-магазин</a> одежды</h1>
+<h1><a href="https://yaroftd.github.io/Pull/">Интернет-магазин</a> одежды</h1>
 <ul>
   <li>Адаптив до 320px;</li>
   <li>Меню бургер;</li>
